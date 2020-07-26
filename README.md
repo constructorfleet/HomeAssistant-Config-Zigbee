@@ -1,2 +1,2 @@
-# HomeAssistant-Config-Zwave
-Home-Assistant Configuration for Z-Wave Integration
+# HomeAssistant-Config-Zigbee
+Home-Assistant Configuration for ZHA Integration

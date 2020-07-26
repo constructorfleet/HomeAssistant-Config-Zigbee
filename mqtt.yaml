@@ -1,25 +1,25 @@
 broker: homebridge-iot.home.prettybaked.com
 port: 1883
-client_id: zwave
+client_id: zigbee
 birth_message:
-  topic: events/slaves/zwave/instance_state
+  topic: events/slaves/zigbee/instance_state
   qos: 1
   retain: true
   payload: >
     {
       "event_type": "instance_state.connected",
       "data": {
-        "instance_name": "zwave"
+        "instance_name": "zigbee"
       }
     }
 will_message:
-  topic: events/slaves/zwave/instance_state
+  topic: events/slaves/zigbee/instance_state
   qos: 1
   retain: true
   payload: >
     {
       "event_type": "instance_state.disconnected",
       "data": {
-        "instance_name": "zwave"
+        "instance_name": "zigbee"
       }
     }
